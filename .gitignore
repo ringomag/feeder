@@ -1,0 +1,4 @@
+/env/
+/core/__pycache__/
+/feeder_app/__pycache__/
+/feeder_app/migrations/__pycache__
