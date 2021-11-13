@@ -3,6 +3,8 @@ from django.shortcuts import render
 from .models import FeederSet
 from django.core.cache import cache
 
+
+
 def index(request):
     feederSets = []
     if cache.keys('*'):
